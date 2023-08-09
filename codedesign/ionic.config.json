@@ -1,0 +1,7 @@
+{
+  "name": "codedesign",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
