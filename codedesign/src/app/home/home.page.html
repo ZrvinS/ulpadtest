@@ -1,18 +1,45 @@
 <ion-header [translucent]="true">
 </ion-header>
-
+<ion-toolbar>
+  <ion-buttons slot="end">
+    <ion-button routerLink="/home">
+      Home
+    </ion-button>
+    <ion-button routerLink="/gallery">
+      Gallery
+    </ion-button>
+    <ion-button routerLink="/about">
+      About Us
+    </ion-button>
+    <ion-button routerLink="/cart">
+      Cart
+    </ion-button>
+    <ion-button routerLink="/profile">
+      Profile
+    </ion-button>
+  </ion-buttons>
+</ion-toolbar>
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
+
+    
   </ion-header>
-<div>  <ion-img src="../../assets/ComicHeroPagePhone.jpg"></ion-img>
-  <p> </p>
+<div>  
+  <div class="login-form">
+    <!-- ... other form inputs ... -->
+      <ion-button expand="full" shape="round" color="primary">Explore</ion-button>  
+    <!-- ... forgot password link ... -->
   </div>
-  <div class ="sell">
-    <ion-img src="../../assets/book2.jpg"></ion-img>
-    <p>Dr. Strange and the murder mystry</p>
-  </div>
-  <div class="sell">  <ion-img src="../../assets/book2.jpg"></ion-img>
-    <p>Dr. Strange's death in the multivers</p>
-    <p></p>
-  </div>
+    <div class="background-image"></div>
+  <div class="login-form">
+    <!-- Your login form content goes here -->
+    <ion-list class="login-form">
+      <ion-item >
+        <ion-input aria-label="Email" value="hi@ionic.io" ></ion-input>
+      </ion-item>
+    </ion-list>
+    
+  </div>   
+</div>
+  
 </ion-content>
