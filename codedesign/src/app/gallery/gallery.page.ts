@@ -11,5 +11,7 @@ export class GalleryPage implements OnInit {
 
   ngOnInit() {
   }
-
+  
+  msg = 'hello';
 }
+
